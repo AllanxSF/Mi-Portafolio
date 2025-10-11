@@ -31,6 +31,7 @@
 .home-image:hover {
     transform: scale(1.05);
     box-shadow: 0 0 50px rgba(8, 1, 7, 0.564);
+    border-color: black;
 }
 
 /* Texto */
