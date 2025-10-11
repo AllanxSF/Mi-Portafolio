@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Índice Latinoamericano de Inteligencia Artificial (ILIA) mantiene a Chile, Brasil y Uruguay como líderes en la región",
+        "date": "2025-10-01",
+        "content": "Los tres países pioneros en IA (Chile, Brasil y Uruguay) no solo han avanzado en la implementación de tecnologías basadas en la IA, sino que también están orientando sus estrategias nacionales hacia la consolidación y expansión de estas tecnologías en todos los sectores de su economía y sociedad. Cuentan, además, con un entorno favorable que potencia la investigación, el desarrollo y la adopción de tecnologías, promoviendo la innovación y aplicación de IA.",
+        "link": "https://www.cepal.org/es/comunicados/indice-latinoamericano-inteligencia-artificial-ilia-mantiene-chile-brasil-uruguay-como",
+        "image": "src/assets/img/noti1.webp"
+    },
+    {
+        "id": 2,
+        "title": "Latam-GPT, el modelo de inteligencia artificial entrenado para entender a América Latina mejor que ChatGPT",
+        "date": "2025-06-04",
+        "content": "Latam-GPT, el primer modelo de lenguaje de inteligencia artificial creado en Chile en alianza con Brasil, quiere medirse codo a codo con ChatGPT, Gemini, DeepSeek y otras tecnologías. El proyecto estará centrado en América Latina y el Caribe. La diferencia con otros modelos es que estará entrenado con una gran proporción de datos de la región. Su gran virtud estará en el conocimiento del contexto local. Es decir, Latam-GPT sabrá más y mejor sobre América Latina que cualquier otro modelo que no haya sido entrenado con estos datos.",
+        "link":"https://elpais.com/chile/2025-06-04/latam-gpt-el-modelo-de-inteligencia-artificial-entrenado-para-entender-a-america-latina-mejor-que-chatgpt.html?utm_source=chatgpt.com",
+        "image": "src/assets/img/noti2.webp"
+    }
+]

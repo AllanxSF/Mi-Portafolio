@@ -1,0 +1,24 @@
+/* === Navbar personalizada === */
+.my-navbar {
+    background-color: black;
+    /* Color de fondo */
+}
+
+/* Texto y enlaces */
+.my-navbar .navbar-brand,
+.my-navbar .nav-link {
+    color: #ffffff !important;
+    /* Color de texto */
+}
+
+/* Hover */
+.my-navbar .nav-link:hover {
+    color: #59adc0 !important;
+    /* Dorado en hover */
+}
+
+/* (Opcional) Si quieres un navbar más delgado o con sombra */
+.my-navbar {
+    padding: 0.6rem 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}

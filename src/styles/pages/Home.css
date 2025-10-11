@@ -1,0 +1,81 @@
+.home-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* 👈 gradiente azul suave */
+    color: #fff;
+    padding: 4rem 2rem;
+}
+
+/* Título grande */
+.home-title {
+    font-size: 3rem;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+/* Imagen centrada, sin recuadro */
+.home-image {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.home-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-color: black; /* color del borde al hacer hover */
+}
+
+
+/* Texto general */
+.home-text {
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    max-width: 700px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Link */
+.home-text a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.home-text a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.home-image {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1 rem;
+    border: 4px solid #fff;
+    /* 👈 borde blanco */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    /* sombra ligera */
+}
+
+.home-section {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+footer {
+    margin-top: 0;
+    border-top: none;
+}

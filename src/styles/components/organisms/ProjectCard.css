@@ -1,0 +1,81 @@
+/* === Contenedor de cada tarjeta === */
+.project-card {
+    width: 100%;
+    max-width: 380px;
+    min-width: 300px;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    background-color: #ffffff;
+}
+
+/* Efecto hover */
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* === Imagen superior === */
+.project-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+/* === Cuerpo de la tarjeta === */
+.project-card .card-body {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* 👈 centra horizontalmente el contenido */
+    text-align: center;
+    /* 👈 centra el texto también */
+}
+
+/* === Título del proyecto === */
+.project-card .card-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 0.75rem;
+}
+
+/* === Descripción del proyecto === */
+.project-card .card-text {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+/* === Botón === */
+.project-card button {
+    background-color: black;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    margin-top: 1rem;
+}
+
+.project-card button:hover {
+    background-color: rgb(87, 85, 85);
+    transform: scale(1.05);
+}
+
+.project-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin-top: 10px;
+    /* 👈 separa la imagen del borde superior */
+    padding: 0 10px;
+    /* 👈 agrega espacio a los lados */
+}

@@ -1,0 +1,63 @@
+
+
+
+
+/* Título */
+.news-title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Tarjeta Bootstrap personalizada */
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Imagen de la tarjeta */
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Cuerpo de la tarjeta */
+.card-body {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-top: 1px solid #e9ecef;
+}
+
+.card-body button {
+    background-color: #000;
+    /* 👈 negro sólido */
+    color: #fff;
+    /* texto blanco */
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-weight: 700;
+    /* 👈 texto en negrita */
+    border-radius: 6px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    display: block;
+    margin: 0 auto;
+    /* 👈 centra el botón */
+}
+
+.card-body button:hover {
+    background-color: #333;
+    /* gris oscuro al pasar el mouse */
+    transform: scale(1.05);
+    /* efecto de zoom suave */
+}
