@@ -6,7 +6,7 @@ import Image from '../atoms/Img';
 function NewsCard({ newsItem }) {
     return (
         <div className="col-md-6 mb-3">
-            <div className="card shadow-sm h-100">
+            <div className="card news-card shadow-sm h-100">
                 {newsItem.image && (
                     <Image
                         src={newsItem.image}

@@ -1,23 +1,28 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import NewsCard from '../components/organisms/NewCard';
 import news from '../data/news';
 import '../styles/pages/News.css';
 
 function News() {
     return (
-        <section id="news" className="news-section container mt-5">
-            <h2 className="news-title">Noticias</h2>
+        <Container className="mt-5">
+            <div className="news-section">
+                <h2 className="news-title text-center">Noticias</h2>
 
-            <div className="row justify-content-center">
-                {news.map((item) => (
-                    <NewsCard key={item.id} newsItem={item} />
-                ))}
+                <div className="row justify-content-center">
+                    {news.map((item) => (
+                        <NewsCard key={item.id} newsItem={item} />
+                    ))}
+                </div>
             </div>
-        </section>
+        </Container>
     );
 }
 
 export default News;
+
+
 
 
 

@@ -17,12 +17,7 @@
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
 
-/* === Imagen superior === */
-.project-card .card-img-top {
-    height: 200px;
-    object-fit: cover;
-    border-bottom: 1px solid #eee;
-}
+
 
 /* === Cuerpo de la tarjeta === */
 .project-card .card-body {
@@ -68,14 +63,3 @@
     transform: scale(1.05);
 }
 
-.project-card .card-img-top {
-    height: 200px;
-    object-fit: cover;
-    border-bottom: 1px solid #eee;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    margin-top: 10px;
-    /* 👈 separa la imagen del borde superior */
-    padding: 0 10px;
-    /* 👈 agrega espacio a los lados */
-}

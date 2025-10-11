@@ -11,7 +11,7 @@ function Footer() {
         <footer className="footer-section">
             <Container className="text-center">
                 <Text className="footer-text">
-                    © {new Date().getFullYear()} Allan — Todos los derechos reservados.
+                    © {new Date().getFullYear()} Allan - Todos los derechos reservados.
                 </Text>
                 <Url href="https://github.com/AllanxSF">
                     <Image src={git} alt="git" className="footer-icon" />
