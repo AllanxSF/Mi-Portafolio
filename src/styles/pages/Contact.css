@@ -1,7 +1,7 @@
 /* Contenedor general */
 .contact-container {
     max-width: 700px;
-    margin: 5rem auto;
+    margin: 1rem auto;
     padding: 3rem 2rem;
     background: linear-gradient(to bottom, #58aabc, #015a78);
     color: #fff;
@@ -23,7 +23,6 @@
 /* Subtítulo */
 .contact-container p {
     font-size: 1.1rem;
-    margin-bottom: 2rem;
 }
 
 /* Formulario dinámico */
