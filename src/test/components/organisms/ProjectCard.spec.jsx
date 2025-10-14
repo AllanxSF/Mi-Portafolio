@@ -3,8 +3,6 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import { RouterProvider, createMemoryRouter } from 'react-router-dom';
 import ProjectCard from '../../../components/organisms/ProjectCard';
 
-
-// 🔹 Componente envolvente con Router
 const MockRouter = ({ children }) => {
     const router = createMemoryRouter(
         [{ path: '*', element: children }],
@@ -14,7 +12,6 @@ const MockRouter = ({ children }) => {
 };
 
 describe('ProjectCard Component', () => {
-    // 🔹 Mock del window.open para evitar abrir pestañas reales
     beforeAll(() => {
         global.open = jasmine.createSpy('open');
     });

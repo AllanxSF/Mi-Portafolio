@@ -22,7 +22,6 @@ describe('Home Page', () => {
         expect(githubLink.getAttribute('href')).toBe('https://github.com/AllanxSF');
     });
 
-
     it('renderiza la imagen del gato con su alt correcto', () => {
         render(<Home />);
         const image = screen.getByAltText('Gato');
