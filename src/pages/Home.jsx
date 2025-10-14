@@ -18,7 +18,7 @@ function Home() {
         <h1 className="home-title">Allan</h1>
 
         <Text className="home-text">
-          Estudiante de informática Duoc UC | Entusiasta de la Tecnología
+          Estudiante de informática Duoc UC
         </Text>
 
         <Text className="home-text">

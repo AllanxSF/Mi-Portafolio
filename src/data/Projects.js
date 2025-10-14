@@ -2,14 +2,14 @@ const projects = [
   {
     id: 1,
     name: 'Miji Beauty',
-    description: 'Descripción breve del proyecto, destacando los objetivos alcanzados y las tecnologías utilizadas breve del producto 1.',
+    description: 'Se desarrolló una tienda online de cosméticos coreanos utilizando HTML, CSS y JavaScript, con el objetivo de aplicar los fundamentos del desarrollo web. El proyecto nos ayudó a poner en práctica la estructura y diseño de páginas web, la creación de diseños mediante CSS y la implementación de validaciones en formularios para mejorar la interacción del usuario. Además, se trabajó con herramientas de control de versiones (GitHub).',
     image: 'src/assets/img/miji.webp',
     github: 'https://github.com/AllanxSF/MijiBeauty'
   },
   {
     id: 2,
     name: 'Te lo convierto',
-    description: 'Descripción breve del proyecto, destacando los objetivos alcanzados y las tecnologías utilizadas breve del producto 1. breve del producto 2.',
+    description: 'Se desarrolló backend para la conversión de archivos más utilizados, usando Java y Spring Boot, aplicando una arquitectura (controlador, servicio, repositorio y modelo) para mantener una estructura modular y escalable. Se configuró Swagger para la documentación de la API y se realizaron pruebas de endpoints con Postman, garantizando el correcto funcionamiento de los servicios.El proyecto incluyó scripts SQL para la carga de datos inicial, archivos de configuración para distintos entornos y pruebas automatizadas con JUnit. ',
     image: 'src/assets/img/te lo.webp',
     github: 'https://github.com/LilvanZetaZeta/teloconvierto'
 
@@ -17,7 +17,7 @@ const projects = [
   {
     id: 3,
     name: 'Mi Portafolio',
-    description: 'Descripción breve del Descripción breve del proyecto, destacando los objetivos alcanzados y las tecnologías utilizadas breve del producto 1. 3.',
+    description: 'Se desarrolló un portafolio personal utilizando el framework React, integrando componentes personalizados. El proyecto incluyó el almacenamiento de datos en archivos JSON y la implementación de pruebas unitarias con Jasmine y Karma, evaluando la correcta funcionalidad de los componentes. Esto permitió aplicar conocimientos de desarrollo web, diseño adaptable y testeo.',
     image: 'src/assets/img/portafolio.webp',
     github: 'https://github.com/AllanxSF/Mi-Portafolio'
   }
