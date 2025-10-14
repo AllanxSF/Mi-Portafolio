@@ -16,8 +16,7 @@ function ProjectCard({ project }) {
                 <CardBody title={project.name} description={project.description} />
                 <Button
                     variant="primary"
-                    onClick={() => window.open(project.github, "_blank")}
-                >
+                    onClick={() => window.open(project.github, "_blank")}>
                     Ver detalles
                 </Button>
             </Card.Body>
