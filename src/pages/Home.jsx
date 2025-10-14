@@ -9,7 +9,6 @@ import '../styles/pages/Home.css';
 function Home() {
   return (
     <Container fluid className="home-container">
-      {/* 🔹 Div contenedor para separar los estilos de esta página */}
       <div className="home-section">
         <Url href="https://github.com/AllanxSF">
           <Image src={gato} alt="Gato" className="home-image" />

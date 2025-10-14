@@ -1,4 +1,3 @@
-/* Fondo general */
 .home-container {
     width: 100%;
     min-height: 100vh;
@@ -9,13 +8,11 @@
     padding: 4rem 2rem;
 }
 
-/* Contenido centrado */
 .home-section {
     text-align: center;
     max-width: 800px;
 }
 
-/* Imagen del perfil */
 .home-image {
     width: 200px;
     height: 200px;
@@ -34,7 +31,6 @@
     border-color: black;
 }
 
-/* Texto */
 .home-title {
     font-size: 3rem;
     font-weight: 400;
@@ -49,7 +45,6 @@
     margin-bottom: 1rem;
 }
 
-/* Links */
 .home-text a {
     color: black;
     font-weight: 600;
@@ -61,7 +56,6 @@
     color: white;
 }
 
-/* Asegura que nada tenga fondo */
 .container,
 .home-section {
     background: transparent !important;

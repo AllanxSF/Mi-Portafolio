@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import projects from '../data/Projects';
 import ProjectCard from '../components/organisms/ProjectCard';
-import '../styles/pages/Projects.css'; // 👈 asegúrate de tenerlo
+import '../styles/pages/Projects.css';
 
 function Projects() {
     return (
