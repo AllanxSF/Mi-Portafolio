@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Text from "../atoms/Text";
 import Url from "../atoms/Url";
-import git from "../../assets/img/gati.png";
+import git from "../../assets/img/gati.webp";
 import Image from "../atoms/Img";
 import "../../styles/components/organisms/Footer.css";
 
