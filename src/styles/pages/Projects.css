@@ -1,10 +1,29 @@
 .projects-title {
     text-align: center;
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: black;
-    margin-bottom: 2rem;
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, #00c8ff58, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2.5rem;
     position: relative;
+}
+
+.projects-title::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 4px;
+    background: linear-gradient(to right, #00c8ff58, black);
+    margin: 0.6rem auto 0;
+    border-radius: 2px;
+    transition: width 0.4s ease;
+}
+
+.projects-title:hover::after {
+    width: 120px;
 }
 
 .projects-row {
@@ -36,4 +55,25 @@
 .projects-row .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.project-card-title {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.project-card-title::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(to right, #015a78, black);
+    margin: 0.5rem auto 0;
+    border-radius: 2px;
 }
