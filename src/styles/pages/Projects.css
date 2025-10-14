@@ -5,8 +5,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     background: linear-gradient(to right, #00c8ff58, black);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    
     margin-bottom: 2.5rem;
     position: relative;
 }
