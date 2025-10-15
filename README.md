@@ -5,5 +5,8 @@ Desde la cmd: 1. cd .\documents\
               4. npm run dev (Probar que esté funcionando)
               5. code .   (abrir el proyecto en vs)
 
+Vercel:
+https://mi-portafolio-1ebz.vercel.app/
+
 Probar Test:
 npm run test
