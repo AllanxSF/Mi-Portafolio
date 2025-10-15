@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import NewsCard from '../components/organisms/NewCard';
-import news from '../data/news';
+import news from '../data/News';
 import '../styles/pages/News.css';
 
 function News() {
