@@ -1,3 +1,7 @@
+import mijiBeauty from '../assets/img/miji.webp';
+import teLoConvierto from '../assets/img/te lo.webp';
+import miPortafolio from '../assets/img/portafolio.webp';
+
 const projects = [
   {
     id: 1,
